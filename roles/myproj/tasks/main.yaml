@@ -1,0 +1,8 @@
+- name: ---------createfile-------------
+  file:
+    path: /home/FileName.txt
+    state: touch
+    owner: root
+    group: root
+    mode: 0644
+  tags: create_file
